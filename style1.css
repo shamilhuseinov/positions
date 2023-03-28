@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.divBase{
+    position: relative;
+    border: 1px solid orange;
+    height: 370px;
+    width: 600px;
+    top: 200px;
+    left: 400px;
+}
+
+.square{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 10%;
+    left: 20px;
+}
+
+.one{
+    background-color: aqua;
+    top:70px;
+    z-index: 999;
+}
+
+.two{
+    background-color: blue;
+    top: 20px;
+}
+
+.three{
+    background-color: chocolate;
+    top:130px;
+}
+
+.four{
+    background-color: rgb(112, 89, 168);
+    top:250px;
+}
+
+
+span{ 
+    margin-left: 35px;
+}

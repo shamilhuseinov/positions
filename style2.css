@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.divBase{
+    position: relative;
+    left: 30px;
+    top: 40px;
+    height:770px;
+    width:1370px;
+    border: 3px dashed black;
+}
+
+.rectangle{
+    position: absolute;
+    height: 100px;
+    width:200px;
+}
+
+.red{
+    background-color: red;
+}
+
+.orange{
+    right:0;
+    background-color:orange
+}
+
+.blue{
+    top:335px;
+    left:585px;
+    background-color:blue
+}
+
+.yellow{
+    bottom:0;
+    background-color:yellow
+}
+
+.green{
+    bottom:0;
+    right:0;
+    background-color:green
+}
